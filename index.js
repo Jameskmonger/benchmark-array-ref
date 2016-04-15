@@ -27,7 +27,7 @@ suite.add('Reference array twice', function() {
     }
 })
 .on('cycle', function(event) {
-    console.log(event.target);
+    console.log(String(event.target));
 })
 .on('complete', function() {
     console.log('Fastest is ' + this.filter('fastest').map('name'));
