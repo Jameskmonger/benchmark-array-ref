@@ -1,0 +1,24 @@
+{
+  "name": "benchmark-array-ref",
+  "version": "0.0.0",
+  "description": "Benchmarking array referencing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jameskmonger/benchmark-array-ref.git"
+  },
+  "keywords": [
+    "benchmark",
+    "array",
+    "reference"
+  ],
+  "author": "James Monger <jameskmonger@hotmail.co.uk> (http://jamesmonger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameskmonger/benchmark-array-ref/issues"
+  },
+  "homepage": "https://github.com/Jameskmonger/benchmark-array-ref"
+}
