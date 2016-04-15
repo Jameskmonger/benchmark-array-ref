@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Jameskmonger/benchmark-array-ref/issues"
   },
-  "homepage": "https://github.com/Jameskmonger/benchmark-array-ref"
+  "homepage": "https://github.com/Jameskmonger/benchmark-array-ref",
+  "dependencies": {
+    "benchmark": "^2.1.0"
+  }
 }
