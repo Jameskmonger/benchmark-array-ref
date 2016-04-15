@@ -1,6 +1,8 @@
 'use strict';
 
+var MIN_SAMPLES = 1000;
 var Benchmark = require('benchmark');
+Benchmark.options.minSamples = MIN_SAMPLES;
 
 var suite = new Benchmark.Suite();
 
@@ -32,4 +34,4 @@ suite.add('Reference array twice', function() {
 .on('complete', function() {
     console.log('Fastest is ' + this.filter('fastest').map('name'));
 })
-.run({ 'async': true });
+.run({ 'async': true, 'minSamples': MIN_SAMPLES });
