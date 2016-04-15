@@ -1,6 +1,6 @@
 {
   "name": "benchmark-array-ref",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Benchmarking array referencing.",
   "main": "index.js",
   "scripts": {
